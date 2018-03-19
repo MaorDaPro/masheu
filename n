@@ -1,0 +1,2045 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>
+    Israeli Taxi - GTA5-Mods.com
+  </title>
+
+  <script type="text/javascript">
+      var tyche = { mode: 'tyche', config: '//config.playwire.com/1020244/v2/websites/67623/banner.json' }
+  </script>
+  <script id="tyche" src="//cdn.intergi.com/hera/tyche.js" type="text/javascript"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"8a51cd092d","applicationID":"7281786","transactionName":"eltXFkZZXFRRQR5BRlxGZgRdWlUXXV1VUU0=","queueTime":3,"applicationTime":176,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta name="msapplication-config" content="none">
+  <meta name="theme-color" content="#20ba4e">
+  <meta name="msapplication-navbutton-color" content="#20ba4e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#20ba4e">
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="WKtuEX3gsJ1naD/GNPQIuU09+N5FJz4cMydpZzRBamHpLJIwmURdNWAz301kMzLlEW/Qc4+jOj9cTceQwZBbyQ==" />
+      <meta property="og:url" content="https://www.gta5-mods.com/paintjobs/israeli-taxi">
+    <meta property="og:title" content="Israeli Taxi">
+    <meta property="og:description" content="ן still dont know how to edit models this is the best i can do for now! sorry!
+ 
+ Requirements:
+ OpenIV
+ 
+ Instructions:
+ 1. navigate to x64e.rpf/levels/gta5/vehicles.rpf
+ 
+ 2. enable edit mode.
+ 
+ 3. IMPORTANT! BACKUP taxi.ytd AND taxi+hi.ytd!
+ 
+ 4. replace the files with the ones in the mod folder.
+ 
+ 5. ENJOY!">
+    <meta property="og:site_name" content="GTA5-Mods.com">
+    <meta property="og:image" content="https://img.gta5-mods.com/q75/images/israeli-taxi/bf917f-Screenshot (50).png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@5mods">
+    <meta name="twitter:title" content="Israeli Taxi">
+    <meta name="twitter:description" content="ן still dont know how to edit models this is the best i can do for now! sorry!
+ 
+ Requirements:
+ OpenIV
+ 
+ Instructions:
+ 1. navigate to x64e.rpf/levels/gta5/vehicles.rpf
+ 
+ 2. enable edit mode.
+ 
+ 3. IMPORTANT! BACKUP taxi.ytd AND taxi+hi.ytd!
+ 
+ 4. replace the files with the ones in the mod folder.
+ 
+ 5. ENJOY!">
+    <meta name="twitter:image" content=https://img.gta5-mods.com/q75/images/israeli-taxi/bf917f-Screenshot (50).png"">
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://images.gta5-mods.com/icons/favicon.png">
+  <link rel="stylesheet" media="screen" href="/assets/application-c36019ddf722a09d3c89e5a63b07dce11cfa0655eae466d1249f6df9bf53ffc1.css" />
+      <link rel="alternate" hreflang="id" href="https://id.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="ms" href="https://ms.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="bg" href="https://bg.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="ca" href="https://ca.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="cs" href="https://cs.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="da" href="https://da.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="de" href="https://de.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="el" href="https://el.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="en" href="https://www.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="es" href="https://es.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="fr" href="https://fr.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="gl" href="https://gl.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="ko" href="https://ko.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="hi" href="https://hi.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="hr" href="https://hr.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="it" href="https://it.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="hu" href="https://hu.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="mk" href="https://mk.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="nl" href="https://nl.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="nb" href="https://no.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="pl" href="https://pl.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="pt-BR" href="https://pt.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="ro" href="https://ro.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="ru" href="https://ru.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="sl" href="https://sl.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="fi" href="https://fi.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="sv" href="https://sv.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="vi" href="https://vi.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="tr" href="https://tr.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="uk" href="https://uk.gta5-mods.com/paintjobs/israeli-taxi">
+    <link rel="alternate" hreflang="zh-CN" href="https://zh.gta5-mods.com/paintjobs/israeli-taxi">
+
+
+
+
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setCookieDomain", "*.www.gta5-mods.com"]);
+    _paq.push(["setDoNotTrack", true]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//pw.nexusmods.com/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '2']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="//pw.nexusmods.com/piwik.php?idsite=2&rec=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Piwik Code -->
+
+</head>
+<body class=" en">
+<div id="page-cover"></div>
+<div id="page-loading">
+  <span class="graphic"></span>
+  <span class="message">Loading...</span>
+</div>
+
+<div id="page-cover"></div>
+
+<nav id="main-nav" class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"></a>
+
+      <ul class="nav navbar-nav">
+        <li id="language-dropdown" class="dropdown">
+          <a href="#language" class="dropdown-toggle" data-toggle="dropdown">
+            <span class="famfamfam-flag-gb icon"></span>&nbsp;
+            <span class="language-name">English</span>
+            <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu dropdown-menu-with-footer">
+                <li>
+                  <a href="https://id.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-id"></span>
+                    <span class="language-name">Bahasa Indonesia</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://ms.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-my"></span>
+                    <span class="language-name">Bahasa Melayu</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://bg.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-bg"></span>
+                    <span class="language-name">Български</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://ca.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-catalonia"></span>
+                    <span class="language-name">Català</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://cs.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-cz"></span>
+                    <span class="language-name">Čeština</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://da.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-dk"></span>
+                    <span class="language-name">Dansk</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://de.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-de"></span>
+                    <span class="language-name">Deutsch</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://el.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-gr"></span>
+                    <span class="language-name">Ελληνικά</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-gb"></span>
+                    <span class="language-name">English</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://es.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-es"></span>
+                    <span class="language-name">Español</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://fr.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-fr"></span>
+                    <span class="language-name">Français</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://gl.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-es-gl"></span>
+                    <span class="language-name">Galego</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://ko.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-kr"></span>
+                    <span class="language-name">한국어</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://hi.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-in"></span>
+                    <span class="language-name">हिन्दी</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://hr.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-hr"></span>
+                    <span class="language-name">Hrvatski</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://it.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-it"></span>
+                    <span class="language-name">Italiano</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://hu.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-hu"></span>
+                    <span class="language-name">Magyar</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://mk.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-mk"></span>
+                    <span class="language-name">Македонски</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://nl.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-nl"></span>
+                    <span class="language-name">Nederlands</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://no.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-no"></span>
+                    <span class="language-name">Norsk</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://pl.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-pl"></span>
+                    <span class="language-name">Polski</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://pt.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-br"></span>
+                    <span class="language-name">Português do Brasil</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://ro.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-ro"></span>
+                    <span class="language-name">Română</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://ru.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-ru"></span>
+                    <span class="language-name">Русский</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://sl.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-si"></span>
+                    <span class="language-name">Slovenščina</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://fi.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-fi"></span>
+                    <span class="language-name">Suomi</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://sv.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-se"></span>
+                    <span class="language-name">Svenska</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://vi.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-vn"></span>
+                    <span class="language-name">Tiếng Việt</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://tr.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-tr"></span>
+                    <span class="language-name">Türkçe</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://uk.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-ua"></span>
+                    <span class="language-name">Українська</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://zh.gta5-mods.com/paintjobs/israeli-taxi">
+                    <span class="famfamfam-flag-cn"></span>
+                    <span class="language-name">中文</span>
+                  </a>
+                </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li class="hidden-xs">
+        <a href="/upload">
+          <span class="icon fa fa-upload"></span>
+          Upload
+        </a>
+      </li>
+
+        <li>
+          <a href="/login?r=/paintjobs/israeli-taxi">
+            <span class="icon fa fa-sign-in"></span>
+            <span class="login-text">Log In</span>
+          </a>
+        </li>
+
+        <li class="hidden-xs">
+          <a href="/register?r=/paintjobs/israeli-taxi">
+            <span class="icon fa fa-user-plus"></span>
+            Register
+          </a>
+        </li>
+
+      <li id="search-dropdown">
+        <a href="#search" class="dropdown-toggle" data-toggle="dropdown">
+          <span class="fa fa-search"></span>
+        </a>
+
+        <div class="dropdown-menu">
+          <div class="form-inline">
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-addon"><span  class="fa fa-search"></span></div>
+                <input type="text" class="form-control" placeholder="Search GTA 5 mods...">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Search
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="banner" class="paintjobs">
+  <div class="container hidden-xs">
+    <div id="intro">
+      <h1 class="styled">Welcome to GTA5-Mods.com</h1>
+      <p>Select one of the following categories to start browsing the latest GTA 5 PC mods:</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <ul id="navigation" class="clearfix en">
+        <li class="tools ">
+          <a href="/tools">
+            <span class="icon-category"></span>
+            <span class="label-border"></span>
+            <span class="label-category ">
+              <span>Tools</span>
+            </span>
+          </a>
+        </li>
+        <li class="vehicles ">
+          <a href="/vehicles">
+            <span class="icon-category"></span>
+            <span class="label-border"></span>
+            <span class="label-category ">
+              <span>Vehicles</span>
+            </span>
+          </a>
+        </li>
+        <li class="paintjobs active">
+          <a href="/paintjobs">
+            <span class="icon-category"></span>
+            <span class="label-border"></span>
+            <span class="label-category ">
+              <span>Paint Jobs</span>
+            </span>
+          </a>
+        </li>
+        <li class="weapons ">
+          <a href="/weapons">
+            <span class="icon-category"></span>
+            <span class="label-border"></span>
+            <span class="label-category ">
+              <span>Weapons</span>
+            </span>
+          </a>
+        </li>
+        <li class="scripts ">
+          <a href="/scripts">
+            <span class="icon-category"></span>
+            <span class="label-border"></span>
+            <span class="label-category ">
+              <span>Scripts</span>
+            </span>
+          </a>
+        </li>
+        <li class="player ">
+          <a href="/player">
+            <span class="icon-category"></span>
+            <span class="label-border"></span>
+            <span class="label-category ">
+              <span>Player</span>
+            </span>
+          </a>
+        </li>
+        <li class="maps ">
+          <a href="/maps">
+            <span class="icon-category"></span>
+            <span class="label-border"></span>
+            <span class="label-category ">
+              <span>Maps</span>
+            </span>
+          </a>
+        </li>
+        <li class="misc ">
+          <a href="/misc">
+            <span class="icon-category"></span>
+            <span class="label-border"></span>
+            <span class="label-category ">
+              <span>Misc</span>
+            </span>
+          </a>
+        </li>
+      <li class="forums">
+        <a href="https://forums.gta5-mods.com">
+          <span class="icon-category"></span>
+          <span class="label-border"></span>
+          <span class="label-category ">
+            <span>Forums</span>
+          </span>
+        </a>
+      </li>
+      <li id="more-dropdown" class="more dropdown">
+        <a href="#more" class="dropdown-toggle" data-toggle="dropdown">
+          <span class="icon-category"></span>
+          <span class="label-border"></span>
+          <span class="label-category ">
+            <span>More</span>
+          </span>
+        </a>
+
+        <ul class="dropdown-menu pull-right">
+          <li>
+            <a href="https://forums.gta5-mods.com/category/10/installation-help-troubleshooting">
+              <span class="fa fa-question-circle"></span>
+              Installation Help
+            </a>
+          </li>
+          <li>
+            <a href="http://www.gta5cheats.com" target="_blank">
+              <span class="fa fa-external-link"></span>
+              GTA 5 Cheats
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+
+
+<div id="file" class="container" data-user-file-id="6767">
+
+    <div class="container">
+
+  <div class="hidden-xs hidden-sm">
+    <div class="top-content">
+
+      <!-- 728 x 90 ATF Desktop -->
+      <div data-pw-desk="leaderboard_atf"></div>
+
+
+    </div>
+  </div>
+
+  <div class="hidden-md hidden-lg">
+    <div class="responsive-content">
+
+      <!-- 320 x 50 ATF Mobile -->
+      <div data-pw-mobi="leaderboard_atf"></div>
+
+    </div>
+  </div>
+
+</div>
+
+  <div class="clearfix">
+    <h1>
+      
+      Israeli Taxi
+      <span class="version">0.1 BETA</span>
+
+    </h1>
+  </div>
+
+
+      <div id="file-container" class="row">
+
+        <div class="col-sm-5 col-lg-4">
+            <a href="/paintjobs/israeli-taxi/download/24082" class="btn btn-primary btn-download" >
+              <span class="fa fa-download"></span>
+              Download
+            </a>
+
+          <div class="file-actions">
+
+            <div class="row">
+              <div class="col-xs-12 share-container">
+                <div id="share-list">
+                  <ul>
+                    <li>
+                      <a href="#share-facebook" class="facebook" title="Share to Facebook">
+                        <span class="fa fa-facebook"></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#share-twitter" class="twitter" title="Share to Twitter" data-text="Israeli Taxi">
+                        <span class="fa fa-twitter"></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#share-vk" class="vk" title="Share to VKontakte">
+                        <span class="fa fa-vk"></span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <button class="btn btn-o-info btn-block">
+                  <span class="fa fa-share-alt "></span>
+                  <span>Share</span>
+                </button>
+              </div>
+
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="user-panel row">
+                <div class="col-xs-3">
+                  <a href="/users/Gh05tyy">
+                    <img class="img-responsive" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/12754/837d06-prism-base-square.png" alt="837d06 prism base square" />
+                  </a>
+                </div>
+                <div class="col-xs-9">
+                  <a class="username" href="/users/Gh05tyy">Gh05tyy</a>
+                      <br/>
+                      <div class="user-social">
+                        <a title="Homepage" target="_blank" href="http://kissmyass.com"><span class="fa fa-home"></span></a>
+
+
+
+
+
+
+
+
+
+
+                      </div>
+
+                      
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="a_300-content">
+  <div class="a_300">
+    <!-- 300 x 250 ATF Desktop -->
+    <div data-pw-desk="med_rect_atf"></div>
+    <!-- 300 x 250 ATF Mobile -->
+    <div data-pw-mobi="med_rect_atf"></div>
+  </div>
+</div>
+
+
+            <div class="panel panel-default hidden-xs">
+              <div class="panel-body">
+  <h4>
+    <i class="fa fa-list-alt"></i>
+    <span><span class="translation_missing" title="translation missing: en.user_file.all_versions">All Versions</span></span>
+  </h4>
+      <div class="well pull-left file-version-container ">
+        <div class="pull-left">
+          <i class="fa fa-file"></i>&nbsp;0.1 BETA <span>(current)</span>
+          <p>
+            <span class="num-downloads">739 downloads <span class="file-size">, 384 KB</span></span>
+            <br/><span class="num-downloads">August 17, 2015</span>
+          </p>
+        </div>
+        <div class="pull-right" >
+                  <a target="_blank" href="https://www.virustotal.com/file/bc629ab1beeac1f032db4039b1df4cfacccb3fd7563212136be245c218b97e9f/analysis/1498278929/"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+
+              <a target="_blank" href="/paintjobs/israeli-taxi/download/24082"><i class="fa fa-download download-version"></i></a>
+        </div>
+      </div>
+</div>
+            </div>
+          <div class="file-list">
+                <div class="col-xs-12 hidden-xs">
+                  <h4>More mods by <a class="username" href="/users/Gh05tyy">Gh05tyy</a>:</h4>
+                      
+<a href="/paintjobs/jerusalem-light-rail" class="file-list-obj panel panel-default clearfix" title="Jerusalem Light Rail">
+  <span class="preview ">
+
+    <img title="Jerusalem Light Rail" class="img-responsive" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/jerusalem-light-rail/118475-Screenshot (45).png" alt="118475 screenshot (45)" />
+  </span>
+  <span class="details">
+    <span class="name" dir="ltr">Jerusalem Light Rail </span>
+    <span class="author">by Gh05tyy</span>
+
+        <span class="stats">
+          <span title="136 Downloads">
+            <span class="fa fa-download"></span> 136
+          </span> &middot;
+          <span title="20 Likes">
+            <span class="fa fa-thumbs-up"></span> 20
+          </span>
+            &middot; <span class="comment-average-rating" data-rating="5.0"></span>
+        </span>
+  </span>
+</a>
+                      
+<a href="/paintjobs/israeli-flag-blimp-mod" class="file-list-obj panel panel-default clearfix" title="Israeli Flag Blimp Mod">
+  <span class="preview ">
+
+    <img title="Israeli Flag Blimp Mod" class="img-responsive" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/israeli-flag-blimp-mod/163101-Screenshot (11).png" alt="163101 screenshot (11)" />
+  </span>
+  <span class="details">
+    <span class="name" dir="ltr">Israeli Flag Blimp Mod 0.2</span>
+    <span class="author">by Gh05tyy</span>
+
+        <span class="stats">
+          <span title="205 Downloads">
+            <span class="fa fa-download"></span> 205
+          </span> &middot;
+          <span title="60 Likes">
+            <span class="fa fa-thumbs-up"></span> 60
+          </span>
+            &middot; <span class="comment-average-rating" data-rating="3.36"></span>
+        </span>
+  </span>
+</a>
+                      
+<a href="/paintjobs/israeli-license-plate" class="file-list-obj panel panel-default clearfix" title="Israeli License Plate">
+  <span class="preview ">
+
+    <img title="Israeli License Plate" class="img-responsive" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/israeli-license-plate/1bd937-Screenshot (2) (1).png" alt="1bd937 screenshot (2) (1)" />
+  </span>
+  <span class="details">
+    <span class="name" dir="ltr">Israeli License Plate 2.0</span>
+    <span class="author">by Gh05tyy</span>
+
+        <span class="stats">
+          <span title="247 Downloads">
+            <span class="fa fa-download"></span> 247
+          </span> &middot;
+          <span title="67 Likes">
+            <span class="fa fa-thumbs-up"></span> 67
+          </span>
+            &middot; <span class="comment-average-rating" data-rating="3.88"></span>
+        </span>
+  </span>
+</a>
+                      
+<a href="/paintjobs/weed-license-plate" class="file-list-obj panel panel-default clearfix" title="Weed License Plate">
+  <span class="preview ">
+
+    <img title="Weed License Plate" class="img-responsive" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/weed-license-plate/3152b7-Screenshot (77).png" alt="3152b7 screenshot (77)" />
+  </span>
+  <span class="details">
+    <span class="name" dir="ltr">Weed License Plate </span>
+    <span class="author">by Gh05tyy</span>
+
+        <span class="stats">
+          <span title="169 Downloads">
+            <span class="fa fa-download"></span> 169
+          </span> &middot;
+          <span title="5 Likes">
+            <span class="fa fa-thumbs-up"></span> 5
+          </span>
+            &middot; <span class="comment-average-rating" data-rating="5.0"></span>
+        </span>
+  </span>
+</a>
+                </div>
+                    <div class="col-xs-12 hidden-xs">
+                      <h4>More mods in <i><a href="/paintjobs">paintjobs</a></i> category:</h4>
+                          
+<a href="/paintjobs/opel-vivaro-gendarmerie" class="file-list-obj panel panel-default clearfix" title="Opel Vivaro Gendarmerie">
+  <span class="preview ">
+
+    <img title="Opel Vivaro Gendarmerie" class="img-responsive" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/opel-vivaro-gendarmerie/70df4c-GTA5 2016-05-14 11-45-55-54.jpg" alt="70df4c gta5 2016 05 14 11 45 55 54" />
+  </span>
+  <span class="details">
+    <span class="name" dir="ltr">Opel Vivaro Gendarmerie </span>
+    <span class="author">by darkhatos</span>
+
+        <span class="stats">
+          <span title="315 Downloads">
+            <span class="fa fa-download"></span> 315
+          </span> &middot;
+          <span title="3 Likes">
+            <span class="fa fa-thumbs-up"></span> 3
+          </span>
+        </span>
+  </span>
+</a>
+                          
+<a href="/paintjobs/ford-crown-victoria-israeli-police" class="file-list-obj panel panel-default clearfix" title="Ford Crown Victoria Israeli Police">
+  <span class="preview ">
+
+    <img title="Ford Crown Victoria Israeli Police" class="img-responsive" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/ford-crown-victoria-israeli-police/570137-1.png" alt="570137 1" />
+  </span>
+  <span class="details">
+    <span class="name" dir="ltr">Ford Crown Victoria Israeli Police 1.0</span>
+    <span class="author">by AEDERY16</span>
+
+        <span class="stats">
+          <span title="4 Downloads">
+            <span class="fa fa-download"></span> 4
+          </span> &middot;
+          <span title="0 Likes">
+            <span class="fa fa-thumbs-up"></span> 0
+          </span>
+        </span>
+  </span>
+</a>
+                          
+<a href="/paintjobs/polis-ozel-harekat-araclari-pack-turkish-s-w-a-t-vehicle-pack-4k" class="file-list-obj panel panel-default clearfix" title="Polis Özel Harekat Araçları Pack (Turkish S.W.A.T) [4K]">
+  <span class="preview ">
+
+    <img title="Polis Özel Harekat Araçları Pack (Turkish S.W.A.T) [4K]" class="img-responsive" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/polis-ozel-harekat-araclari-pack-turkish-s-w-a-t-vehicle-pack-4k/0f6fa6-PÖH (16).jpg" alt="0f6fa6 pÖh (16)" />
+  </span>
+  <span class="details">
+    <span class="name" dir="ltr">Polis Özel Harekat Araçları Pack (Turkish S.W.A.T) [4K] 3.0</span>
+    <span class="author">by ALp_Garaqe</span>
+
+        <span class="stats">
+          <span title="795 Downloads">
+            <span class="fa fa-download"></span> 795
+          </span> &middot;
+          <span title="6 Likes">
+            <span class="fa fa-thumbs-up"></span> 6
+          </span>
+            &middot; <span class="comment-average-rating" data-rating="4.75"></span>
+        </span>
+  </span>
+</a>
+                    </div>
+          </div>
+        </div>
+
+        <div class="col-sm-7 col-lg-8">
+              <div id="file-media">
+                <!-- Cover Media -->
+                <div class="text-center">
+
+                      <a target="_blank" class="thumbnail mfp-image cover-media" title="Israeli Taxi" href="https://img.gta5-mods.com/q95/images/israeli-taxi/bf917f-Screenshot (50).png"><img class="img-responsive" src="https://img.gta5-mods.com/q85-w800/images/israeli-taxi/bf917f-Screenshot (50).png" alt="Bf917f screenshot (50)" /></a>
+                </div>
+
+                <!-- Remaining Media -->
+                    <div class="media-thumbnails row">
+                              <div class="col-xs-4 col-md-2">
+                                <a target="_blank" class="thumbnail mfp-image" title="Israeli Taxi" href="https://img.gta5-mods.com/q95/images/israeli-taxi/bf917f-Screenshot (51).png"><img class="img-responsive" src="https://img.gta5-mods.com/q75-w350-h233-cfill/images/israeli-taxi/bf917f-Screenshot (51).png" alt="Bf917f screenshot (51)" /></a>
+                              </div>
+                              <div class="col-xs-4 col-md-2">
+                                <a target="_blank" class="thumbnail mfp-image" title="Israeli Taxi" href="https://img.gta5-mods.com/q95/images/israeli-taxi/bf917f-Screenshot (52).png"><img class="img-responsive" src="https://img.gta5-mods.com/q75-w350-h233-cfill/images/israeli-taxi/bf917f-Screenshot (52).png" alt="Bf917f screenshot (52)" /></a>
+                              </div>
+                              <div class="col-xs-4 col-md-2">
+                                <a target="_blank" class="thumbnail mfp-image" title="Israeli Taxi" href="https://img.gta5-mods.com/q95/images/israeli-taxi/bbc921-taxi_signs_2.png"><img class="img-responsive" src="https://img.gta5-mods.com/q75-w350-h233-cfill/images/israeli-taxi/bbc921-taxi_signs_2.png" alt="Bbc921 taxi signs 2" /></a>
+                              </div>
+
+                    </div>
+              </div>
+
+          <h3 class="clearfix" dir="auto">
+            <div class="pull-left file-stats">
+              <i class="fa fa-cloud-download pull-left download-icon"></i>
+              <div class="file-stat file-downloads pull-left">
+                <span class="num-downloads">739</span>
+                <label>Downloads</label>
+              </div>
+              <i class="fa fa-thumbs-o-up pull-left like-icon"></i>
+              <div class="file-stat file-likes pull-left">
+                <span class="num-likes">33</span>
+                <label>Likes</label>
+              </div>
+            </div>
+
+                <span class="comment-average-container pull-right">
+                    <span class="comment-average-rating" data-rating="3.64"></span>
+                    <label>3.64 / 5 stars (7 votes)</label>
+                </span>
+          </h3>
+          <div id="featured-comment">
+            <ul class="media-list pinned-comments">
+              
+            </ul>
+          </div>
+          <div class="visible-xs-block">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="file-description">
+                      <span class="description-body description-collapsed" dir="auto">
+                        ן still dont know how to edit models this is the best i can do for now! sorry!
+<br/>
+<br/>Requirements:
+<br/>OpenIV
+<br/>
+<br/>Instructions:
+<br/>1. navigate to x64e.rpf/levels/gta5/vehicles.rpf
+<br/>
+<br/>2. enable edit mode.
+<br/>
+<br/>3. IMPORTANT! BACKUP taxi.ytd AND taxi+hi.ytd!
+<br/>
+<br/>4. replace the files with the ones in the mod folder.
+<br/>
+<br/>5. ENJOY!
+                        <div class="read-more-button-container">
+                          <div class="read-more-gradient"></div>
+                          <div class="read-more-button">Show Full Description</div>
+                        </div>
+                      </span>
+                  
+                  
+                </div>
+                    <div id="tag-list">
+                          <div>
+                            <a href="/all/tags/international/most-downloaded">
+                              <span class="label label-default">
+                                <span class="fa fa-tag"></span>
+                                International
+                              </span>
+                            </a>
+                          </div>
+                    </div>
+
+                <div id="file-dates">
+
+                  <br/><small title="Mon, 17 Aug 2015 22:15:36 +0000">
+                    <strong>Uploaded:</strong>
+                    August 17, 2015
+                    
+                  </small>
+
+
+                      <br/><small title="Mon, 19 Mar 2018 18:32:36 +0000">
+                  <strong>Last Downloaded:</strong>
+                  5 hours ago
+                </small>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="panel panel-default visible-xs-block">
+              <div class="panel-body">
+  <h4>
+    <i class="fa fa-list-alt"></i>
+    <span><span class="translation_missing" title="translation missing: en.user_file.all_versions">All Versions</span></span>
+  </h4>
+      <div class="well pull-left file-version-container ">
+        <div class="pull-left">
+          <i class="fa fa-file"></i>&nbsp;0.1 BETA <span>(current)</span>
+          <p>
+            <span class="num-downloads">739 downloads <span class="file-size">, 384 KB</span></span>
+            <br/><span class="num-downloads">August 17, 2015</span>
+          </p>
+        </div>
+        <div class="pull-right" >
+                  <a target="_blank" href="https://www.virustotal.com/file/bc629ab1beeac1f032db4039b1df4cfacccb3fd7563212136be245c218b97e9f/analysis/1498278929/"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+
+              <a target="_blank" href="/paintjobs/israeli-taxi/download/24082"><i class="fa fa-download download-version"></i></a>
+        </div>
+      </div>
+</div>
+            </div>
+
+            <h3 class="clearfix comments-stats" dir="auto">
+              <span class="pull-left">
+                  <span class="num-comments" data-count="26">26 Comments</span>
+              </span>
+            </h3>
+            <div id="comments_mobile">
+
+            </div>
+
+            <div class="file-list">
+                  <div class="col-xs-12">
+                    <h4>More mods by <a class="username" href="/users/Gh05tyy">Gh05tyy</a>:</h4>
+                        
+<a href="/paintjobs/jerusalem-light-rail" class="file-list-obj panel panel-default clearfix" title="Jerusalem Light Rail">
+  <span class="preview ">
+
+    <img title="Jerusalem Light Rail" class="img-responsive" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/jerusalem-light-rail/118475-Screenshot (45).png" alt="118475 screenshot (45)" />
+  </span>
+  <span class="details">
+    <span class="name" dir="ltr">Jerusalem Light Rail </span>
+    <span class="author">by Gh05tyy</span>
+
+        <span class="stats">
+          <span title="136 Downloads">
+            <span class="fa fa-download"></span> 136
+          </span> &middot;
+          <span title="20 Likes">
+            <span class="fa fa-thumbs-up"></span> 20
+          </span>
+            &middot; <span class="comment-average-rating" data-rating="5.0"></span>
+        </span>
+  </span>
+</a>
+                        
+<a href="/paintjobs/israeli-flag-blimp-mod" class="file-list-obj panel panel-default clearfix" title="Israeli Flag Blimp Mod">
+  <span class="preview ">
+
+    <img title="Israeli Flag Blimp Mod" class="img-responsive" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/israeli-flag-blimp-mod/163101-Screenshot (11).png" alt="163101 screenshot (11)" />
+  </span>
+  <span class="details">
+    <span class="name" dir="ltr">Israeli Flag Blimp Mod 0.2</span>
+    <span class="author">by Gh05tyy</span>
+
+        <span class="stats">
+          <span title="205 Downloads">
+            <span class="fa fa-download"></span> 205
+          </span> &middot;
+          <span title="60 Likes">
+            <span class="fa fa-thumbs-up"></span> 60
+          </span>
+            &middot; <span class="comment-average-rating" data-rating="3.36"></span>
+        </span>
+  </span>
+</a>
+                        
+<a href="/paintjobs/israeli-license-plate" class="file-list-obj panel panel-default clearfix" title="Israeli License Plate">
+  <span class="preview ">
+
+    <img title="Israeli License Plate" class="img-responsive" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/israeli-license-plate/1bd937-Screenshot (2) (1).png" alt="1bd937 screenshot (2) (1)" />
+  </span>
+  <span class="details">
+    <span class="name" dir="ltr">Israeli License Plate 2.0</span>
+    <span class="author">by Gh05tyy</span>
+
+        <span class="stats">
+          <span title="247 Downloads">
+            <span class="fa fa-download"></span> 247
+          </span> &middot;
+          <span title="67 Likes">
+            <span class="fa fa-thumbs-up"></span> 67
+          </span>
+            &middot; <span class="comment-average-rating" data-rating="3.88"></span>
+        </span>
+  </span>
+</a>
+                        
+<a href="/paintjobs/weed-license-plate" class="file-list-obj panel panel-default clearfix" title="Weed License Plate">
+  <span class="preview ">
+
+    <img title="Weed License Plate" class="img-responsive" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/weed-license-plate/3152b7-Screenshot (77).png" alt="3152b7 screenshot (77)" />
+  </span>
+  <span class="details">
+    <span class="name" dir="ltr">Weed License Plate </span>
+    <span class="author">by Gh05tyy</span>
+
+        <span class="stats">
+          <span title="169 Downloads">
+            <span class="fa fa-download"></span> 169
+          </span> &middot;
+          <span title="5 Likes">
+            <span class="fa fa-thumbs-up"></span> 5
+          </span>
+            &middot; <span class="comment-average-rating" data-rating="5.0"></span>
+        </span>
+  </span>
+</a>
+                  </div>
+            </div>
+
+          </div>
+
+          <div class="hidden-xs">
+
+            <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a class="url-push" href="#description_tab" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-file-text-o"></i>&nbsp;Description</a></li>
+                  <li role="presentation"><a class="url-push" href="#comments_tab" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-comments-o"></i>&nbsp;Comments (26)</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="description_tab">
+                <div class="panel panel-default" style="margin-top: 8px">
+                  <div class="panel-body">
+                    <div class="file-description">
+                          <span class="description-body " dir="auto">
+                            ן still dont know how to edit models this is the best i can do for now! sorry!
+<br/>
+<br/>Requirements:
+<br/>OpenIV
+<br/>
+<br/>Instructions:
+<br/>1. navigate to x64e.rpf/levels/gta5/vehicles.rpf
+<br/>
+<br/>2. enable edit mode.
+<br/>
+<br/>3. IMPORTANT! BACKUP taxi.ytd AND taxi+hi.ytd!
+<br/>
+<br/>4. replace the files with the ones in the mod folder.
+<br/>
+<br/>5. ENJOY!
+                          </span>
+                      
+                      
+                    </div>
+                        <div id="tag-list">
+                              <div>
+                                <a href="/all/tags/international">
+                                  <span class="label label-default">
+                                    <span class="fa fa-tag"></span>
+                                    International
+                                  </span>
+                                </a>
+                              </div>
+                        </div>
+
+                    <div id="file-dates">
+
+                      <br/><small title="Mon, 17 Aug 2015 22:15:36 +0000">
+                      <strong>Uploaded:</strong>
+                      August 17, 2015
+                      
+                    </small>
+
+
+                          <br/><small title="Mon, 19 Mar 2018 18:32:36 +0000">
+                      <strong>Last Downloaded:</strong>
+                      5 hours ago
+                    </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                  <div role="tabpanel" class="tab-pane" id="comments_tab">
+
+                <div id="comments">
+                  <ul class="media-list pinned-comments">
+                    
+                  </ul>
+
+                      <div class="text-center">
+                        <button class="view-more btn btn-o-primary btn-block btn-sm">
+                          Show previous 6 comments
+                        </button>
+                      </div>
+
+                  <ul class="media-list comments-list">
+                    
+    <li id="comment-128777" class="comment media " data-comment-id="128777" data-username="Gh05tyy" data-mentions="[&quot;dbakk&quot;]">
+      <div class="media-left"><a href="/users/Gh05tyy"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/12754/837d06-prism-base-square.png" alt="837d06 prism base square" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/Gh05tyy">Gh05tyy</a>
+                    <label class="label label-primary">Author</label>
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p><a class="mention" href="/users/dbakk">@dbakk</a> thanks bro ;D</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Tue, 18 Aug 2015 13:28:51 +0000">August 18, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-128784" class="comment media " data-comment-id="128784" data-username="Gh05tyy" data-mentions="[&quot;dbakk&quot;]">
+      <div class="media-left"><a href="/users/Gh05tyy"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/12754/837d06-prism-base-square.png" alt="837d06 prism base square" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/Gh05tyy">Gh05tyy</a>
+                    <label class="label label-primary">Author</label>
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p><a class="mention" href="/users/dbakk">@dbakk</a> please like it lets overcome the dislikes also please rate 5 stars</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Tue, 18 Aug 2015 13:34:26 +0000">August 18, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-128788" class="comment media " data-comment-id="128788" data-username="Reicito_E" data-mentions="[&quot;Gh05tyy&quot;]">
+      <div class="media-left"><a href="/users/Reicito_E"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/3317/9d12ad-dsfsdfdfsdsfsdfdsfdfs.png" alt="9d12ad dsfsdfdfsdsfsdfdsfdfs" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/Reicito_E">Reicito_E</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p><a class="mention" href="/users/Gh05tyy">@Gh05tyy</a> israel ftw</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Tue, 18 Aug 2015 13:37:18 +0000">August 18, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-128923" class="comment media " data-comment-id="128923" data-username="Hipster" data-mentions="[]">
+      <div class="media-left"><a href="/users/Hipster"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/presets/hipster.jpg" alt="Hipster" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/Hipster">Hipster</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                <span class="comment-rating" data-rating="4.5"></span>
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p>Guys, come on.. Don&#39;t let the crappy politics ruin your good attitude.</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Tue, 18 Aug 2015 14:59:13 +0000">August 18, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-129128" class="comment media " data-comment-id="129128" data-username="felicia" data-mentions="[]">
+      <div class="media-left"><a href="/users/felicia"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/17017/2a92ef-13532085_622265101281266_488996474_n.jpg" alt="2a92ef 13532085 622265101281266 488996474 n" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/felicia">felicia</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p>am i forced to dislike ?  no... but are you forced to put the israelian flag on your profil picture ? no !</p>
+
+<p>i&#39;m a jew ...</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Tue, 18 Aug 2015 16:54:38 +0000">August 18, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-129131" class="comment media " data-comment-id="129131" data-username="Gh05tyy" data-mentions="[&quot;felicia&quot;]">
+      <div class="media-left"><a href="/users/Gh05tyy"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/12754/837d06-prism-base-square.png" alt="837d06 prism base square" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/Gh05tyy">Gh05tyy</a>
+                    <label class="label label-primary">Author</label>
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p><a class="mention" href="/users/felicia">@felicia</a> any problem with me putting an israeli flag as my pic?</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Tue, 18 Aug 2015 16:56:40 +0000">August 18, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-129133" class="comment media " data-comment-id="129133" data-username="Gh05tyy" data-mentions="[&quot;felicia&quot;]">
+      <div class="media-left"><a href="/users/Gh05tyy"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/12754/837d06-prism-base-square.png" alt="837d06 prism base square" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/Gh05tyy">Gh05tyy</a>
+                    <label class="label label-primary">Author</label>
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p><a class="mention" href="/users/felicia">@felicia</a> sry if i got u wrong i didn&#39;t understand the message really...</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Tue, 18 Aug 2015 16:57:56 +0000">August 18, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-129151" class="comment media " data-comment-id="129151" data-username="felicia" data-mentions="[&quot;Gh05tyy&quot;]">
+      <div class="media-left"><a href="/users/felicia"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/17017/2a92ef-13532085_622265101281266_488996474_n.jpg" alt="2a92ef 13532085 622265101281266 488996474 n" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/felicia">felicia</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p><a class="mention" href="/users/Gh05tyy">@Gh05tyy</a>  You know what I want to say.... this is not the moment my friend ! </p>
+
+<p>like &quot; Tel Aviv beach &quot; in Paris... my god....</p>
+
+<p>Your profile is perceived as a provocation by hothers users...i&#39;m sorry for that , but it&#39;s true...</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Tue, 18 Aug 2015 17:04:03 +0000">August 18, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-129756" class="comment media " data-comment-id="129756" data-username="Lkzaa" data-mentions="[]">
+      <div class="media-left"><a href="/users/Lkzaa"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/presets/gtao47.jpg" alt="Gtao47" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/Lkzaa">Lkzaa</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p>she&#39;s right, they think is a provocation, but they are just some shitty haters, personnally i don&#39;t like your mods but i don&#39;t dislike bcause you wasted time on it so, and for the haters, there are some israelians here and they want to play with the texture of their country so fuck off seriously, go dislike real useless mods ! </p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Tue, 18 Aug 2015 22:36:05 +0000">August 18, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-130257" class="comment media " data-comment-id="130257" data-username="Matt" data-mentions="[]">
+      <div class="media-left"><a href="/users/Matt"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/32235/bb7cd3-freemason-wallpaper-1680x1050.jpg" alt="Bb7cd3 freemason wallpaper 1680x1050" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/Matt">Matt</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p>I don&#39;t mind the textures not bad :)</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Wed, 19 Aug 2015 04:33:57 +0000">August 19, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-130266" class="comment media " data-comment-id="130266" data-username="Matt" data-mentions="[]">
+      <div class="media-left"><a href="/users/Matt"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/32235/bb7cd3-freemason-wallpaper-1680x1050.jpg" alt="Bb7cd3 freemason wallpaper 1680x1050" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/Matt">Matt</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p>Guys it&#39;s just modding it&#39;s work for the human race we all belong to the same planet and have similar goals in mind</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Wed, 19 Aug 2015 04:43:35 +0000">August 19, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-130401" class="comment media " data-comment-id="130401" data-username="felicia" data-mentions="[&quot;Lkzaa&quot;]">
+      <div class="media-left"><a href="/users/felicia"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/17017/2a92ef-13532085_622265101281266_488996474_n.jpg" alt="2a92ef 13532085 622265101281266 488996474 n" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/felicia">felicia</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p><a class="mention" href="/users/Lkzaa">@Lkzaa</a> + 1</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Wed, 19 Aug 2015 07:26:13 +0000">August 19, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-131694" class="comment media " data-comment-id="131694" data-username="MozesKaka" data-mentions="[]">
+      <div class="media-left"><a href="/users/MozesKaka"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/34113/1543c5-images.jpg" alt="1543c5 images" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/MozesKaka">MozesKaka</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                <span class="comment-rating" data-rating="5.0"></span>
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p>awesome mod thanks</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Wed, 19 Aug 2015 20:20:08 +0000">August 19, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-136579" class="comment media " data-comment-id="136579" data-username="Matt" data-mentions="[]">
+      <div class="media-left"><a href="/users/Matt"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/32235/bb7cd3-freemason-wallpaper-1680x1050.jpg" alt="Bb7cd3 freemason wallpaper 1680x1050" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/Matt">Matt</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                <span class="comment-rating" data-rating="5.0"></span>
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p>5555</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Sat, 22 Aug 2015 03:58:51 +0000">August 22, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-166673" class="comment media " data-comment-id="166673" data-username="The Truth" data-mentions="[]">
+      <div class="media-left"><a href="/users/The%20Truth"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/39001/00485d-Cruel_Britannia_400_313.jpg(Edited).jpg" alt="00485d cruel britannia 400 313.jpg(edited)" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/The%20Truth">The Truth</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                <span class="comment-rating" data-rating="0.5"></span>
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p>I expect better next time, waiting for an update!</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Fri, 04 Sep 2015 19:58:56 +0000">September 04, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-281909" class="comment media " data-comment-id="281909" data-username="ido156012" data-mentions="[&quot;Hilux5577&quot;, &quot;KaKz&quot;]">
+      <div class="media-left"><a href="/users/ido156012"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/15652/304e1d-Keep_f05565_1549798.jpg" alt="304e1d keep f05565 1549798" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/ido156012">ido156012</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p><a class="mention" href="/users/Hilux5577">@Hilux5577</a> <a class="mention" href="/users/KaKz">@KaKz</a> no dislike button lolz</p>
+
+<p>don&#39;t mind the haters keep up the good work</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Sun, 29 Nov 2015 20:12:04 +0000">November 29, 2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-321606" class="comment media " data-comment-id="321606" data-username="XenowOw" data-mentions="[]">
+      <div class="media-left"><a href="/users/XenowOw"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/81550/f6416d-22511638.jpg" alt="F6416d 22511638" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/XenowOw">XenowOw</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p>יפה יש מצב אתה עושה עוד מודים אחי
+</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Sun, 03 Jan 2016 08:47:57 +0000">January 03, 2016</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-628648" class="comment media " data-comment-id="628648" data-username="OP2393" data-mentions="[]">
+      <div class="media-left"><a href="/users/OP2393"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/presets/default.jpg" alt="Default" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/OP2393">OP2393</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                <span class="comment-rating" data-rating="5.0"></span>
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p>omg, this mod is awesome! and it has real ads on it like get taxi,and such other Israeli stuff.</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Sun, 21 Aug 2016 06:08:48 +0000">August 21, 2016</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-806706" class="comment media " data-comment-id="806706" data-username="Cold Legacy" data-mentions="[]">
+      <div class="media-left"><a href="/users/Cold%20Legacy"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/250433/634200-coldlegacylogo.png" alt="634200 coldlegacylogo" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/Cold%20Legacy">Cold Legacy</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p>Fuck israel</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Fri, 20 Jan 2017 22:31:32 +0000">January 20, 2017</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li id="comment-1062678" class="comment media " data-comment-id="1062678" data-username="Guy293" data-mentions="[]">
+      <div class="media-left"><a href="/users/Guy293"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/presets/default.jpg" alt="Default" /></a></div>
+      <div class="media-body">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="media-heading clearfix">
+              <div class="pull-left flip" dir="auto">
+                <a href="/users/Guy293">Guy293</a>
+                    
+              </div>
+              <div class="pull-right flip">
+                
+
+                
+              </div>
+            </div>
+
+            <div class="comment-text " dir="auto"><p>אחי בוא רגע אני רוצה להציע לך משהו https://discord.gg/QzuRyTy</p></div>
+
+            <div class="media-details clearfix">
+              <div class="row">
+                <div class="col-md-8 text-left flip">
+
+                  
+                </div>
+                <div class="col-md-4 text-right flip" title="Wed, 20 Sep 2017 13:53:00 +0000">September 20, 2017</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+
+                  </ul>
+
+                      <div class="alert alert-info">
+                        Join the conversation! <a href="/login?r=/paintjobs/israeli-taxi">Log In</a> or <a href="/register?r=/paintjobs/israeli-taxi">register</a> for an account to be able to comment.
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <div class="modal fade" id="downloadModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="panel panel-default">
+            <div class="panel-body">
+  <h4>
+    <i class="fa fa-list-alt"></i>
+    <span><span class="translation_missing" title="translation missing: en.user_file.all_versions">All Versions</span></span>
+  </h4>
+      <div class="well pull-left file-version-container ">
+        <div class="pull-left">
+          <i class="fa fa-file"></i>&nbsp;0.1 BETA <span>(current)</span>
+          <p>
+            <span class="num-downloads">739 downloads <span class="file-size">, 384 KB</span></span>
+            <br/><span class="num-downloads">August 17, 2015</span>
+          </p>
+        </div>
+        <div class="pull-right" >
+                  <a target="_blank" href="https://www.virustotal.com/file/bc629ab1beeac1f032db4039b1df4cfacccb3fd7563212136be245c218b97e9f/analysis/1498278929/"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+
+              <a target="_blank" href="/paintjobs/israeli-taxi/download/24082"><i class="fa fa-download download-version"></i></a>
+        </div>
+      </div>
+</div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div></div>
+<div id="footer">
+  <div class="container">
+
+
+    <div class="hidden-xs hidden-sm">
+        <div class="top-content">
+          <!-- 728x90 - BTF - 5Mods -->
+          <div data-pw-desk="leaderboard_btf"></div>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-sm-4 col-md-4 hidden-xs">
+
+        <a href="/users/Slim Trashman" class="staff">Designed in Alderney</a><br/>
+        <a href="/users/rappo" class="staff">Made in Los Santos</a>
+
+          <div class="a_300-content">
+            <div class="a_300">
+              <!-- 300 x 250 BTF Desktop -->
+              <div data-pw-desk="med_rect_btf"></div>
+              <!-- 300 x 250 BTF Mobile -->
+              <div data-pw-mobi="med_rect_btf"></div>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="col-sm-8 col-md-8 hidden-xs">
+
+        <div class="col-md-4 hidden-sm hidden-xs">
+          <ul>
+            <li>
+              <a href="/tools">GTA 5 Modding Tools</a>
+            </li>
+            <li>
+              <a href="/vehicles">GTA 5 Vehicle Mods</a>
+            </li>
+            <li>
+              <a href="/paintjobs">GTA 5 Vehicle Paint Job Mods</a>
+            </li>
+            <li>
+              <a href="/weapons">GTA 5 Weapon Mods</a>
+            </li>
+            <li>
+              <a href="/scripts">GTA 5 Script Mods</a>
+            </li>
+            <li>
+              <a href="/player">GTA 5 Player Mods</a>
+            </li>
+            <li>
+              <a href="/maps">GTA 5 Map Mods</a>
+            </li>
+            <li>
+              <a href="/misc">GTA 5 Misc Mods</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4 col-md-4 hidden-xs">
+          <ul>
+            <li>
+              <a href="/all">Latest Files</a>
+            </li>
+            <li>
+              <a href="/all/tags/featured">Featured Files</a>
+            </li>
+            <li>
+              <a href="/all/most-liked">Most Liked Files</a>
+            </li>
+            <li>
+              <a href="/all/most-downloaded">Most Downloaded Files</a>
+            </li>
+            <li>
+              <a href="/all/highest-rated">Highest Rated Files</a>
+            </li>
+            <li>
+              <a href="/leaderboard">GTA5-Mods.com Leaderboard</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4 col-md-4">
+          <ul>
+            <li>
+              <a href="/contact">
+                Contact
+              </a>
+            </li>
+            <li>
+              <a href="/privacy">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="/terms">
+                Terms of Use
+              </a>
+            </li>
+            <li>
+              <a href="https://www.cognitoforms.com/NexusMods/_5ModsDMCAForm">
+                DMCA
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/5mods" class="social" target="_blank" title="@5mods on Twitter">
+                <span class="fa fa-twitter-square"></span>
+                @5mods on Twitter
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/5mods" class="social" target="_blank" title="5mods on Facebook">
+                <span class="fa fa-facebook-official"></span>
+                5mods on Facebook
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="/assets/i18n-df0d92353b403d0e94d1a4f346ded6a37d72d69e9a14f2caa6d80e755877da17.js"></script>
+<script src="/assets/translations-a23fafd59dbdbfa99c7d1d49b61f0ece1d1aff5b9b63d693ca14bfa61420d77c.js"></script>
+<script type="text/javascript">
+  I18n.defaultLocale = 'en';
+  I18n.locale = 'en';
+  I18n.fallbacks = true;
+
+  var GTA5M = { User: { authenticated: false } };
+</script>
+<script src="/assets/application-bf8e356b0767ecf1b0e6b929f1df9e8d315c850b9350745e46313bb7fd5caa67.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "CreativeWork",
+      "about": "Grand Theft Auto V",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.64",
+        "reviewCount": "7",
+        "bestRating": 5,
+        "worstRating": 0.5
+      },
+      "author": "Gh05tyy",
+      "comment_count": "26",
+      "dateModified": "2015-08-17T22:15:36Z",
+      "datePublished": "2015-08-17T22:15:36Z",
+      "name": "Israeli Taxi"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://www.gta5-mods.com/paintjobs",
+          "name": "Paint Jobs"
+        }
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://www.gta5-mods.com/paintjobs/israeli-taxi",
+          "name": "Israeli Taxi"
+        }
+      }]
+    }
+    </script>
+
+    <script src="https://apis.google.com/js/platform.js"></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+    var _qevents = _qevents || [];
+    (function() {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);
+    })();
+    _qevents.push({
+        qacct:"p-bcgV-fdjlWlQo"
+    });
+</script>
+<noscript>
+  <div style="display:none;">
+    <img src="//pixel.quantserve.com/pixel/p-bcgV-fdjlWlQo.gif" border="0" height="1" width="1" alt="Quantcast"/>
+  </div>
+</noscript>
+<!-- End Quantcast tag -->
+
+
+<div class="js-paloma-hook" data-id="1521501839935">
+  <script type="text/javascript">
+    (function(){
+      // Do not continue if Paloma not found.
+      if (window['Paloma'] === undefined) {
+        return true;
+      }
+
+      Paloma.env = 'production';
+
+      // Remove any callback details if any
+      $('.js-paloma-hook[data-id!=' + 1521501839935 + ']').remove();
+
+      var request = {"resource":"UserFile","action":"index","params":{}};
+
+      Paloma.engine.setRequest({
+        id: "1521501839935",
+        resource: request['resource'],
+        action: request['action'],
+        params: request['params']});
+    })();
+  </script>
+</div>
+</body>
+</html>
